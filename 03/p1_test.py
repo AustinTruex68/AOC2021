@@ -7,7 +7,7 @@ class SolutionTests(TestCase, TestCaseMixin):
 
     solution = Solution
     source = 'sample.txt'
-    given = 150
+    given = 198
 
 
 if __name__ == '__main__':

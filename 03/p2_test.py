@@ -1,13 +1,13 @@
 from unittest import TestCase, main
 from aocfw import TestCaseMixin
-from p1 import Solution
+from p2 import Solution
 
 
 class SolutionTests(TestCase, TestCaseMixin):
 
     solution = Solution
     source = 'sample.txt'
-    given = 150
+    given = None
 
 
 if __name__ == '__main__':
